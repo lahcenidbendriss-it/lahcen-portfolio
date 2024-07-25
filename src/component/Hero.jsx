@@ -3,7 +3,7 @@ import { HERO_CONTENT } from "../constants"
 import profilepic from "../assets/kevinRushProfile.jpg"
 import { motion } from "framer-motion"
 
-const PDF_FILE_URL = 'http://localhost:5173/file_pdf.pdf'
+const PDF_FILE_URL = '/file_pdf.pdf'
 
 function Hero() {
   const container = (delay) => ({
