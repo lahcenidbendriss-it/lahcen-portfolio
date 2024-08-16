@@ -2,7 +2,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate back-end developer with a knack for crafting robust and scalable server-side applications.  I have honed my skills in technologies such as Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and ensure seamless data management and security.`;
+export const HERO_CONTENT = `Développeur frontend passionné, je possède une solide expérience avec React.js, HTML, CSS, JavaScript, et Next.js, ainsi qu'une bonne maîtrise de PHP pour les besoins côté serveur. Je suis spécialisé dans la création d'interfaces utilisateur intuitives et performantes. Je m'intéresse à l'optimisation de l'expérience utilisateur, j'aime collaborer avec des équipes dynamiques, et je suis toujours curieux d'apprendre les nouvelles tendances du développement web. Mon objectif est de continuer à m'améliorer dans le développement frontend tout en relevant de nouveaux défis créatifs et techniques..`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile back-end developer with a passion for creating efficient and secure server-side applications. I have worked with a variety of technologies, including Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -11,7 +11,7 @@ export const EXPERIENCES = [
     year: "2023 - Present",
     role: "Senior Full Stack Developer",
     company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `Développeur frontend passionné, formé à l'Office de Formation Professionnelle et de Promotion du Travail, je possède une solide expérience avec React.js, HTML, CSS, JavaScript, et Next.js, ainsi qu'une bonne maîtrise de PHP pour les besoins côté serveur. Je suis spécialisé dans la création d'interfaces utilisateur intuitives et performantes. Je m'intéresse à l'optimisation de l'expérience utilisateur, j'aime collaborer avec des équipes dynamiques, et je suis toujours curieux d'apprendre les nouvelles tendances du développement web. Mon objectif est de continuer à m'améliorer dans le développement frontend tout en relevant de nouveaux défis créatifs et techniques..`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {

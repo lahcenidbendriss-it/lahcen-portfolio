@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from "../constants"
-import profilepic from "../assets/kevinRushProfile.jpg"
+import profilepic from "../assets/avatar-6.png"
 import { motion } from "framer-motion"
 
 const PDF_FILE_URL = '/file_pdf.pdf'
@@ -42,7 +42,7 @@ function Hero() {
               initial="hidden"
               animate="visible"
               className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>
-              Backend Developer
+              Frontend Developer
             </motion.span>
             <motion.p
               variants={container(1)}
