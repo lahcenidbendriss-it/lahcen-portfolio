@@ -39,10 +39,10 @@ function Projects() {
                     
 
                         ) )} <br/>
-                        <div className='pt-4 hover:text-blue-800 font-small underline'> 
+                        {/* <div className='pt-4 hover:text-blue-800 font-small underline'> 
                         <a href={experience.link} target="_blank" rel="noopener noreferrer">Visit Project</a>
 
-                        </div>
+                        </div> */}
                         
                 </motion.div>
 

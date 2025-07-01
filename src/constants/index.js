@@ -19,7 +19,7 @@ export const EXPERIENCES = [
     description: `Development and design of a multilingual website using WordPress, PHP and MySQL for the African Group of Judges Conference. This project included the integration of a MySQL database to enable dynamic and personalized content management. The platform was deployed and hosted on CapConnecte to ensure optimum performance and accessibility. In addition, key functionalities were implemented, such as program management, registration and the distribution of logistical information to participants.`,
     technologies: [ "WordPress", "PHP", "MySQL","Javascript"],
     image:logo1,
-    link: "https://rgamorocco25.com/",
+    // link: "https://rgamorocco25.com/",
   },
   {
     year: "2024 - Present",
@@ -29,7 +29,7 @@ export const EXPERIENCES = [
     description: `Designed and developed the official website for Cyber Skills Lab using HTML, CSS, and PHP. The project involved integrating interactive exercises and immersive labs to offer practical training in cybersecurity. The platform was deployed and hosted on CapConnecte, ensuring both reliable performance and scalability.`,
     technologies: ["HTML", "CSS", "PHP"],
     image:logo2,
-    link: "https://cyberskillslab.com/",
+    // link: "https://cyberskillslab.com/",
   },
 
 ];
