@@ -1,5 +1,10 @@
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
+import project7 from "../assets/projects/project7.jpeg";
+import project8 from "../assets/projects/project8.png";
+import project10 from "../assets/projects/project10.png";
+
+
 import project4 from "../assets/projects/project-4.jpg";
 import logo1 from "../assets/LOGO_EN_3.png";
 import logo2 from "../assets/logolat.png";
@@ -37,14 +42,14 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project7,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
     title: "Employer Leave Management System for Hospitals ",
-    image: project2,
+    image: project8,
     description:
       "A comprehensive web application designed to manage employee leave processes within hospitals. The system features employee self-service portals, multi-level approval workflows, real-time notifications, and detailed leave tracking and reporting..",
     technologies: ["HTML", "CSS", "Express", "Mysql","React"],
@@ -52,7 +57,7 @@ export const PROJECTS = [
 
   {
     title: "Hotel Reservation System",
-    image: project4,
+    image: project10,
     description:
       "A platform for booking hotel rooms, featuring room availability, booking management, and user profiles.",
     technologies: ["HTML", "Laravel", "mySQL"],
