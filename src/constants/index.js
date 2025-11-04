@@ -36,6 +36,16 @@ export const EXPERIENCES = [
     image:logo2,
     // link: "https://cyberskillslab.com/",
   },
+    {
+    year: "2025 - Present",
+    title_project: "website in investm.consulting",
+    role: "Full Stack Developer",
+    company: "investm.consulting.",
+    description: `Development and design of a multilingual website using WordPress, PHP and MySQL for the investm.consulting`,
+    technologies: [ "WordPress", "PHP", "MySQL","Javascript"],
+    image:logo3,
+    // link: "https://rgamorocco25.com/",
+  },
 
 ];
 
