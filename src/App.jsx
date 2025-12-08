@@ -11,31 +11,31 @@ function App() {
 
   
   return (
-    <div className='overflow-x-hidden  antialiased   '>
-    <div className='fixed top-0 -z-10 h-full w-full'>
-    {/* <div class="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"></div> */}
-    {/* <div class="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div> */}
-    <div class='absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]'></div>
+<div className='overflow-x-hidden antialiased text-white'>
+  <div className='fixed top-0 -z-10 h-full w-full'>
+    <div className='absolute top-0 z-[-2] h-screen w-screen bg-[#212227] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(168,85,247,0.25),rgba(33,34,39,0))]'></div>
+  </div>
 
-    </div>
-    <div className='container mx-auto px-8'>
-
+  <div className='container mx-auto px-8'>
     <Navbar />
     <Hero />
-    <About />
-    <Tecknologies />
-    <Projects />
-    <Contact />
-    </div>
+     <section id="about">
+      <About />
+    </section>
 
-    
+    <section id="technologies">
+      <Tecknologies />
+    </section>
 
-    
+    <section id="projects">
+      <Projects />
+    </section>
 
-    
- 
-    
-    </div>
+    <section id="contact">
+      <Contact />
+    </section>
+  </div>
+</div>
   )
 }
 
