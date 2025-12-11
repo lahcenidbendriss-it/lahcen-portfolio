@@ -1,12 +1,20 @@
 import React from 'react';
 import { CONTACT } from '../constants';
 import { motion } from "framer-motion";
+<<<<<<< HEAD
+=======
+// Make sure to install these icons if you haven't: npm install react-icons
+>>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 function Contact() {
   return (
     <div className='border-b border-neutral-900 pb-20 pt-10'>
         
+<<<<<<< HEAD
+=======
+        {/* Main Heading */}
+>>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
         <motion.h1
             whileInView={{opacity:1, y:0}}
             initial={{opacity:0, y: -50 }}
@@ -16,6 +24,10 @@ function Contact() {
             Get in <span className='text-purple-500'>Touch</span>
         </motion.h1>
 
+<<<<<<< HEAD
+=======
+        {/* Introduction Text */}
+>>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
         <motion.p 
             whileInView={{opacity:1, y:0}}
             initial={{opacity:0, y: -30 }}
@@ -27,6 +39,10 @@ function Contact() {
 
         <div className='flex flex-col items-center justify-center gap-6 tracking-wide'>
             
+<<<<<<< HEAD
+=======
+            {/* Address Section */}
+>>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
             <motion.div 
                 whileInView={{opacity:1, x:0}}
                 initial={{opacity:0, x: -50 }}
@@ -39,6 +55,10 @@ function Contact() {
                 <p>{CONTACT.address}</p>
             </motion.div>
 
+<<<<<<< HEAD
+=======
+            {/* Phone Section (Clickable) */}
+>>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
             <motion.div 
                 whileInView={{opacity:1, x:0}}
                 initial={{opacity:0, x: 50 }}
@@ -48,6 +68,10 @@ function Contact() {
                 <div className='p-3 rounded-full bg-neutral-900 border border-neutral-800 text-purple-500'>
                     <FaPhoneAlt className='text-xl' />
                 </div>
+<<<<<<< HEAD
+=======
+                {/* Replaces spaces to make 'tel:' link work properly */}
+>>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
                 <a 
                     href={`tel:${CONTACT.phoneNo.replace(/\s+/g, '')}`} 
                     className='text-neutral-300 hover:text-white transition-colors duration-300'
@@ -56,6 +80,10 @@ function Contact() {
                 </a>
             </motion.div>
 
+<<<<<<< HEAD
+=======
+            {/* Email Section (Main CTA) */}
+>>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
             <motion.a 
                 whileInView={{opacity:1, y:0}}
                 initial={{opacity:0, y: 50 }}
@@ -71,6 +99,10 @@ function Contact() {
 
         </div>
         
+<<<<<<< HEAD
+=======
+        {/* Copyright / Footer Text */}
+>>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
         <motion.div 
              whileInView={{opacity:1}}
              initial={{opacity:0}}
@@ -83,4 +115,8 @@ function Contact() {
   )
 }
 
+<<<<<<< HEAD
 export default Contact;
+=======
+export default Contact;
+>>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378

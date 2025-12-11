@@ -18,11 +18,15 @@ function App() {
 
   <div className='container mx-auto px-8'>
     <Navbar />
+<<<<<<< HEAD
     <section id='hero'>
       <Hero />
 
     </section>
     
+=======
+    <Hero />
+>>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
      <section id="about">
       <About />
     </section>
@@ -43,4 +47,8 @@ function App() {
   )
 }
 
+<<<<<<< HEAD
 export default App
+=======
+export default App
+>>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
