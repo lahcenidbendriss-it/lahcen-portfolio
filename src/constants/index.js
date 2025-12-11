@@ -1,0 +1,91 @@
+import project2 from "../assets/projects/project-2.jpg";
+import project3 from "../assets/projects/project-3.jpg";
+import project7 from "../assets/projects/project7.jpeg";
+import project8 from "../assets/projects/project8.png";
+import project10 from "../assets/projects/project10.png";
+
+
+import project4 from "../assets/projects/project-4.jpg";
+import logo1 from "../assets/LOGO_EN_3.png";
+import logo2 from "../assets/logolat.png";
+
+
+
+export const HERO_CONTENT = `Full Stack Developer proficient in a diverse tech ecosystem, including React, Node.js, PHP (Laravel), and Git. Strong experience in implementing microservices architectures and RESTful APIs, with a focus on code quality and performance optimization. Familiar with Agile methodologies (Scrum) to ensure efficient team collaboration and timely project deliveries.`;
+
+export const ABOUT_TEXT = `I am a dedicated and versatile Full Stack Developer developer with a strong passion for crafting user-friendly and visually appealing web interfaces. My expertise lies in working with HTML, CSS, and JavaScript frameworks like React.js and Next.js to build responsive and dynamic web applications. I also have experience integrating server-side functionality using PHP. My journey in web development began with a fascination for design and user experience, which has evolved into a career where I continuously strive to learn and adapt to new front-end technologies and best practices. I thrive in collaborative environments and enjoy bringing creative solutions to life through code. Outside of coding, I stay active by exploring new technologies and contributing to open-source projects.`;
+
+export const EXPERIENCES = [
+  {
+    year: "2022 - 2023",
+    title_project: "Front end Developer ",
+    role: "DMS  -   Laayoune ",
+    company: "Flow Studio.",
+    description: `Conception et développement d’une application web complète avec ReactJS (front-end), Express (back-end) et MySQL (base de données).
+Mise en place d’un système de gestion des congés permettant aux employés de soumettre, consulter, modifier et annuler leurs demandes en toute autonomie.
+Amélioration continue de l’application grâce à l’identification et la résolution proactive des bogues.`,
+    technologies: [ "WordPress", "PHP", "MySQL","Javascript"],
+    image:logo1,
+    // link: "https://rgamorocco25.com/",
+  },
+  {
+    year: "2024 - 2025",
+    title_project: "Développeur WordPress ",
+    role: "Flow Studio",
+    company: "Flow Studio.",
+    description: `Développement d’applications web responsives pour des projets institutionnels (cybersécurité) en utilisant HTML, CSS, PHP, MySQL et WordPress
+Intégration de bases de données pour une gestion dynamique du contenu.
+Création de fonctionnalités interactives : tableau de bord d'administration .
+Utilisation de Git pour le suivi des versions et la collaboration en équipe.
+`,
+    technologies: ["HTML", "CSS", "PHP"],
+    image:logo2,
+    // link: "https://cyberskillslab.com/",
+  },
+    {
+    year: "2025 - 2025",
+    title_project: "Développeur (php & Laravel)",
+    role: "Full Stack Developer",
+    company: "Tex Digital - Casablanca",
+    description: `Développement d’un dashboard personnalisé pour les vendeurs et le super administrateur (gestion des produits, comptes et accès).
+Intégration et synchronisation des produits depuis WooCommerce via une API sécurisée.
+Mise en place de la connexion et communication entre la plateforme interne et WooCommerce .`,
+    technologies: [ "WordPress", "PHP", "MySQL","Javascript"],
+    // image:logo3,
+    // link: "https://rgamorocco25.com/",
+  },
+
+];
+
+export const PROJECTS = [
+  {
+    title: "Portfolio Website",
+    image: project7,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+  },
+  {
+    title: "Employer Leave Management System for Hospitals ",
+    image: project8,
+    description:
+      "A comprehensive web application designed to manage employee leave processes within hospitals. The system features employee self-service portals, multi-level approval workflows, real-time notifications, and detailed leave tracking and reporting..",
+    technologies: ["HTML", "CSS", "Express", "Mysql","React"],
+  },
+
+  {
+    title: "Hotel Reservation System",
+    image: project10,
+    description:
+      "A platform for booking hotel rooms, featuring room availability, booking management, and user profiles.",
+    technologies: ["HTML", "Laravel", "mySQL"],
+  },
+
+
+];
+
+export const CONTACT = {
+  address: "Casablanca, Morocco",
+  phoneNo: "+212 762599440 ",
+  email: "lahcenidbendriss@gmail.com",
+};
