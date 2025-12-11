@@ -98,8 +98,4 @@ function Tecknologies() {
   );
 }
 
-<<<<<<< HEAD
 export default Tecknologies;
-=======
-export default Tecknologies;
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378

@@ -28,23 +28,12 @@ function Hero() {
   };
 
   return (
-<<<<<<< HEAD
    <div className='border-b border-neutral-800 pb-4 lg:mb-35 pt-20 mt-20'>
       <div className='flex flex-wrap'>
         
         <div className='w-full lg:w-1/2'>
           <div className='flex flex-col items-center lg:items-start'>
             
-=======
-   <div className='border-b border-neutral-800 pb-4 lg:mb-35'>
-      <div className='flex flex-wrap'>
-        
-        {/* Left Side: Text Content */}
-        <div className='w-full lg:w-1/2'>
-          <div className='flex flex-col items-center lg:items-start'>
-            
-            {/* Name Heading */}
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
             <motion.h1
               variants={container(0)}
               initial="hidden"
@@ -53,76 +42,40 @@ function Hero() {
               Lahcen Idbendriss
             </motion.h1>
 
-<<<<<<< HEAD
-=======
-            {/* Animated Gradient Title */}
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
             <motion.span
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-<<<<<<< HEAD
-=======
-              // CHANGED: Removed 'slate' to make the colors cleaner (Pink -> Purple -> Indigo)
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
               className='bg-gradient-to-r from-pink-300 via-purple-500 to-indigo-500 bg-clip-text text-4xl tracking-tight text-transparent'>
               Full Stack Web Developer
             </motion.span>
 
-<<<<<<< HEAD
-=======
-            {/* Description Paragraph */}
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
             <motion.p
               variants={container(1)}
               initial="hidden"
               animate="visible"
-<<<<<<< HEAD
-=======
-              // CHANGED: text-neutral-400 is easier to read on dark backgrounds than white
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
               className='my-4 max-w-xl py-2 font-light tracking-tighter text-neutral-400'>
               {HERO_CONTENT}
             </motion.p>
              
-<<<<<<< HEAD
-=======
-            {/* Download Button */}
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
             <motion.button
               variants={container(1.3)}
               initial="hidden"
               animate="visible"
               onClick={handleDownload}
-<<<<<<< HEAD
-=======
-              // CHANGED: Added a shadow glow effect
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
               className='mr-4 mt-4 rounded-full bg-purple-600 px-8 py-3 text-xl font-medium text-white shadow-lg shadow-purple-500/30 hover:bg-purple-500 hover:scale-105 transition duration-300'>
               Download CV
             </motion.button>
           </div>
         </div>
 
-<<<<<<< HEAD
         <div className='w-full lg:w-1/2 lg:p-8'>
           <div className='flex justify-center'>
             
-=======
-        {/* Right Side: Image */}
-        <div className='w-full lg:w-1/2 lg:p-8'>
-          <div className='flex justify-center'>
-            
-            {/* Image Wrapper / Glow */}
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
             <motion.div
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }} 
               transition={{ duration: 1, delay: 1.2 }}
-<<<<<<< HEAD
-=======
-              // CHANGED: Removed 'bg-violet-100' (too bright). Added a subtle dark purple gradient.
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
               className='rounded-full bg-gradient-to-b from-purple-900/20 to-transparent p-2'>
               
               <motion.img
@@ -131,10 +84,6 @@ function Hero() {
                 transition={{ duration: 1, delay: 1.2 }}
                 src={profilepic} 
                 alt='Lahcen Idbendriss'
-<<<<<<< HEAD
-=======
-                // CHANGED: Added a subtle shadow to the image itself
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
                 className="inline-block h-[400px] w-auto rounded-full shadow-2xl shadow-purple-900/50" 
               />
             </motion.div>

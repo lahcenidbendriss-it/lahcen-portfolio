@@ -17,7 +17,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Full Stack Developer d
 
 export const EXPERIENCES = [
   {
-<<<<<<< HEAD
+
     year: "2022 - 2023",
     title_project: "Front end Developer ",
     role: "DMS  -   Laayoune ",
@@ -25,19 +25,13 @@ export const EXPERIENCES = [
     description: `Conception et développement d’une application web complète avec ReactJS (front-end), Express (back-end) et MySQL (base de données).
 Mise en place d’un système de gestion des congés permettant aux employés de soumettre, consulter, modifier et annuler leurs demandes en toute autonomie.
 Amélioration continue de l’application grâce à l’identification et la résolution proactive des bogues.`,
-=======
-    year: "2024 - Present",
-    title_project: "Conference 2025 website",
-    role: "Full Stack Developer",
-    company: "Flow Studio.",
-    description: `Development and design of a multilingual website using WordPress, PHP and MySQL for the African Group of Judges Conference. This project included the integration of a MySQL database to enable dynamic and personalized content management. The platform was deployed and hosted on CapConnecte to ensure optimum performance and accessibility. In addition, key functionalities were implemented, such as program management, registration and the distribution of logistical information to participants.`,
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
+
     technologies: [ "WordPress", "PHP", "MySQL","Javascript"],
     image:logo1,
     // link: "https://rgamorocco25.com/",
   },
   {
-<<<<<<< HEAD
+
     year: "2024 - 2025",
     title_project: "Développeur WordPress ",
     role: "Flow Studio",
@@ -47,19 +41,12 @@ Intégration de bases de données pour une gestion dynamique du contenu.
 Création de fonctionnalités interactives : tableau de bord d'administration .
 Utilisation de Git pour le suivi des versions et la collaboration en équipe.
 `,
-=======
-    year: "2024 - Present",
-    title_project: "Cyber Skills Lab website development",
-    role: "Front end Developer",
-    company: "Flow Studio.",
-    description: `Designed and developed the official website for Cyber Skills Lab using HTML, CSS, and PHP. The project involved integrating interactive exercises and immersive labs to offer practical training in cybersecurity. The platform was deployed and hosted on CapConnecte, ensuring both reliable performance and scalability.`,
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
+
     technologies: ["HTML", "CSS", "PHP"],
     image:logo2,
     // link: "https://cyberskillslab.com/",
   },
     {
-<<<<<<< HEAD
     year: "2025 - 2025",
     title_project: "Développeur (php & Laravel)",
     role: "Full Stack Developer",
@@ -69,15 +56,6 @@ Intégration et synchronisation des produits depuis WooCommerce via une API séc
 Mise en place de la connexion et communication entre la plateforme interne et WooCommerce .`,
     technologies: [ "WordPress", "PHP", "MySQL","Javascript"],
     // image:logo3,
-=======
-    year: "2025 - Present",
-    title_project: "website in investm.consulting",
-    role: "Full Stack Developer",
-    company: "investm.consulting.",
-    description: `Development and design of a multilingual website using WordPress, PHP and MySQL for the investm.consulting`,
-    technologies: [ "WordPress", "PHP", "MySQL","Javascript"],
-    image:logo3,
->>>>>>> b0fb4aead1213f831b9fc2a06e5637978f27e378
     // link: "https://rgamorocco25.com/",
   },
 
