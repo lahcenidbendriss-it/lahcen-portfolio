@@ -58,6 +58,13 @@ Mise en place de la connexion et communication entre la plateforme interne et Wo
     // image:logo3,
     // link: "https://rgamorocco25.com/",
   },
+    {
+    year: "2025 - 2026",
+    title_project: "Full Stack Developer",
+    company: "Stafna (Recruitment Platform)",
+    description: "Developed and optimized a modern recruitment platform connecting job seekers with employers. Built a highly responsive frontend and a robust backend architecture for scalable performance.",
+    technologies: ["Next.js", "Laravel", "Tailwind CSS", "MySQL"],
+  }
 
 ];
 
